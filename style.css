@@ -1,0 +1,96 @@
+/* ChatNative スタイルシート */
+
+body {
+  font-family: 'Noto Sans JP', Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #1a56db;
+  text-align: center;
+  border-bottom: 2px solid #1a56db;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #2563eb;
+  border-left: 5px solid #2563eb;
+  padding-left: 15px;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #3b82f6;
+  margin-top: 25px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 25px;
+}
+
+li:before {
+  content: "•";
+  color: #3b82f6;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+}
+
+strong {
+  color: #1a56db;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+}
+
+th {
+  background-color: #e1effe;
+  color: #1a56db;
+}
+
+th, td {
+  border: 1px solid #d1d5db;
+  padding: 12px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.highlight {
+  background-color: #dbeafe;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.note {
+  background-color: #f3f4f6;
+  padding: 15px;
+  border-left: 5px solid #3b82f6;
+  margin: 20px 0;
+}
+
+.world-map {
+  display: block;
+  max-width: 100%;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
